@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>WEB222</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/lab3-theme.css" />
+	<script src="js/list.js"></script>
+</head>
+
+<body>
+
+	<header>
+		<div class="center">
+			<h2>
+				WEB222 - Assignment 3
+			</h2>
+		</div>
+	</header>
+	<nav>
+		<div class="center">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="list.html">List</a></li>
+				<li><a href="table.html">Table</a></li>
+				<li><a href="image.html">Image</a></li>
+				<li><a href="audio.html">Audio</a></li>
+				<li><a href="video.html">Video</a></li>
+				<li><a href="seneca.html">Seneca</a></li>
+				<li><a href="honesty.html">Honesty</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<section class="main center">
+
+		<!-- Start your code here -->
+		<h2>HTML Lists</h2>
+		<div id="countries_provinces_cities">
+				<h3>Nested, Ordered & Unordered List Example Using Countries, Provinces & Cities</h3>
+				<ol>
+					<li>Canada</li>
+						<ol>
+							<li>Ontario</li>
+								<ul>
+									<li>Toronto</li>
+									<li>Scarborough</li>
+									<li>Oshawa</li>
+								</ul>
+						</ol>
+					<li>America</li>
+						<ol>
+							<li>California</li>
+								<ul>
+									<li>Los Angeles</li>
+									<li>San Francisco</li>
+									<li>Fresno</li>
+								</ul>
+						</ol>	
+				</ol>
+		</div>
+		<div id="fruits">
+			<h3>List of Fruits</h3>
+			<ol>
+				<li><script>document.write(fruits[0])</script></li>
+				<li><script>document.write(fruits[1])</script></li>
+				<li><script>document.write(fruits[2])</script></li>
+				<li><script>document.write(fruits[3])</script></li>
+				<li><script>document.write(fruits[4])</script></li>
+				<li><script>document.write(fruits[5])</script></li>
+			</ol>
+		</div>
+		<div id="directories_files">
+			<h3>List of Directories & Files</h3>
+			<ul>
+				<li><script>document.write(directory[0].name)</script></li>
+				<li><script>document.write(directory[1].name)</script></li>
+				<li><script>document.write(directory[2].name)</script></li>
+					<ul>
+						<li><script>document.write(directory[2].files[0].name)</script></li>
+				 		<li><script>document.write(directory[2].files[1].name)</script></li>
+					</ul>
+				<li><script>document.write(directory[3].name)</script></li>
+				<li><script>document.write(directory[4].name)</script></li>
+					<ul>
+						<li><script>document.write(directory[4].files[0].name)</script></li>
+						<li><script>document.write(directory[4].files[1].name)</script></li>
+						<li><script>document.write(directory[4].files[2].name)</script></li>
+					</ul>
+			</ul>
+		</div>
+		<!-- End your code here  -->
+	</section>
+	<footer>
+		<div class="center">
+			&copy; 2018 Ivy Leano-Hill
+		</div>	
+	</footer>
+</body>
+
+</html>

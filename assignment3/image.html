@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>WEB222</title>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/lab3-theme.css"/>
+	<script src="js/image.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="center">
+			<h2>
+			     WEB222 - Assignment 3
+			</h2>
+		</div>
+	</header>
+	<nav>
+		<div class="center">
+		<ul>	
+			<li><a href="index.html">Home</a></li>
+			<li><a href="list.html">List</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li><a href="image.html">Image</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="seneca.html">Seneca</a></li>
+			<li><a href="honesty.html">Honesty</a></li>
+		</ul>
+		</div>
+	</nav>
+		
+	<section class="main center">
+	
+	<!-- Start your code here -->
+		<h2>HTML Images</h2>
+		<div id="ict_image">
+			<a href="https://ict.senecacollege.ca/"><img src="img/ict.png" alt="ICT School, Seneca College"></a>
+		</div>
+		<div id="image_array">
+			<h3>Images From the Image Array</h3>
+			<!--FIRST IMAGE IN ARRAY-->
+			<figure>
+				<img id="image1" src="#image1.jpg" alt="">
+				<script>
+					document.getElementById("image1").src = images[0].url;
+					document.getElementById("image1").alt = images[0].alt;
+				</script>	
+				<figcaption><script>document.write(images[0].caption)</script></figcaption>			
+			</figure>
+			<!--SECOND IMAGE IN ARRAY-->
+			<figure>
+				<img id="image2" src="#image2.jpg" alt="">
+				<script>
+					document.getElementById("image2").src = images[1].url;
+					document.getElementById("image2").alt = images[1].alt;
+				</script>	
+				<figcaption><script>document.write(images[1].caption)</script></figcaption>			
+			</figure>
+			<!--THIRD IMAGE IN ARRAY-->
+			<figure>
+				<img id="image3" src="#image3.jpg" alt="">
+				<script>
+					document.getElementById("image3").src = images[2].url;
+					document.getElementById("image3").alt = images[2].alt;
+				</script>	
+				<figcaption><script>document.write(images[2].caption)</script></figcaption>			
+			</figure>	
+			<!--FOURTH IMAGE IN ARRAY-->
+			<figure>
+				<img id="image4" src="#image4.jpg" alt="">
+				<script>
+					document.getElementById("image4").src = images[3].url;
+					document.getElementById("image4").alt = images[3].alt;
+				</script>	
+				<figcaption><script>document.write(images[3].caption)</script></figcaption>			
+			</figure>
+			<!--FIFTH IMAGE IN ARRAY-->
+			<figure>
+				<img id="image5" src="#image5.jpg" alt="">
+				<script>
+					document.getElementById("image5").src = images[4].url;
+					document.getElementById("image5").alt = images[4].alt;
+				</script>	
+				<figcaption><script>document.write(images[4].caption)</script></figcaption>			
+			</figure>			
+			</div>
+			<!-- End your code here  -->
+	</section>
+	<footer>
+	  <div class="center">
+		  &copy; 2018 Ivy Leano-Hill
+	  </div>
+	</footer>
+</body>
+</html>	  

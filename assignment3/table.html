@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>WEB222</title>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/lab3-theme.css"/>
+	<script src="js/table.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="center">
+			<h2>
+			     WEB222 - Assignment 3
+			</h2>
+		</div>
+	</header>
+	<nav>
+		<div class="center">
+		<ul>	
+			<li><a href="index.html">Home</a></li>
+			<li><a href="list.html">List</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li><a href="image.html">Image</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="seneca.html">Seneca</a></li>
+			<li><a href="honesty.html">Honesty</a></li>
+		</ul>
+		</div>
+	</nav>
+		
+	<section class="main center">
+	
+	<!-- Start your code here -->
+		<h2>HTML Tables</h2> 
+		<div id="Hobbies">	
+			<h3>Hobbies Table</h3>
+			<table style="border:1px solid;">
+				<caption>Table One: Hobbies</caption>
+					<tr>
+						<th>Hobbies</th>
+						<th>Description</th>
+						<th>Time Spent</th>
+						<th>Interest</th>
+						<th>Experience</th>
+					</tr>
+					<tr>
+						<td>Basketball</td>
+						<td>Sports</td>
+						<td>2h/week</td>
+						<td>Moderate</td>
+						<td>1 Year</td>
+					</tr>
+					<tr>
+						<td>Climbing</td>
+						<td>Sports</td>
+						<td>4h/week</td>
+						<td>Moderate</td>
+						<td>2 Years</td>
+					</tr>
+					<tr>
+						<td>Painting</td>
+						<td>Art</td>
+						<td>1h/week</td>
+						<td>Moderate</td>
+						<td>3 Years</td>
+					</tr>
+					<tr>
+						<td>Writing</td>
+						<td>Art</td>
+						<td>2h/week</td>
+						<td>Moderate</td>
+						<td>5 Years</td>
+					</tr>			
+			</table>
+		</div>
+		<div id="favourite_personalities">
+			<h3>Favourite Personalities Table</h3>
+			<table style="border:1px solid;">
+				<caption>Table One: Favourite Personalities</caption>
+					<thead style="background-color: lightblue">
+						<tr>
+							<th>Actors</th>
+							<th>Authors</th>
+							<th>Singers</th>
+							<th>Directors</th>
+						</tr>
+					</thead>
+					<tbody style="background-color: lightgoldenrodyellow">
+						<tr>
+							<td>Emma Watson</td>
+							<td>Ian McEwan</td>
+							<td>Adele</td>
+							<td>James Cameron</td>
+						</tr>
+						<tr>
+							<td>Emma Stone</td>
+							<td>Khaled Hosseini</td>
+							<td>Sam Smith</td>
+							<td>Henry Selick</td>
+						</tr>
+						<tr>
+							<td>Priyanka Chopra</td>
+							<td>Scott Westerfeld</td>
+							<td>Jeff Buckley</td>
+							<td>Tim Burton</td>
+						</tr>
+						<tr>
+							<td>Morgan Freeman</td>
+							<td>Tennyson</td>
+							<td>Tracy Chapman</td>
+							<td>Jim Henson</td>
+						</tr>
+					</tbody>
+					<tfoot style="background-color: lightgreen">
+						<tr>
+							<td colspan=3>Table Created: </td>
+							<td>November 3, 2018</td>
+						</tr>
+					</tfoot>			
+			</table>
+		</div>
+		<div id="users">
+			<h3>Table of Users</h3>
+			<table border="1" style="width:430px">
+				<thead>
+					<tr>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>Age</th>
+						<th>Email</th>
+					</tr>
+					<tr>
+						<td><script>document.write(users[0].first_name)</script></td>
+						<td><script>document.write(users[0].last_name)</script></td>
+						<td><script>document.write(users[0].age)</script></td>
+						<td><a href="kburns99753@usermail.com"><script>document.write(users[0].email)</script></a></td>
+					</tr>
+					<tr>
+						<td><script>document.write(users[1].first_name)</script></td>
+						<td><script>document.write(users[1].last_name)</script></td>
+						<td><script>document.write(users[1].age)</script></td>
+						<td><a href="josh319726@usermail.com"><script>document.write(users[1].email)</script></a></td>
+					</tr>
+					<tr>
+						<td><script>document.write(users[2].first_name)</script></td>
+						<td><script>document.write(users[2].last_name)</script></td>
+						<td><script>document.write(users[2].age)</script></td>
+						<td><a href="steve.shaw47628@usermail.com"><script>document.write(users[2].email)</script></a></td>
+					</tr>
+					<tr>
+						<td><script>document.write(users[3].first_name)</script></td>
+						<td><script>document.write(users[3].last_name)</script></td>
+						<td><script>document.write(users[3].age)</script></td>
+						<td><a href="mailto:Timbo72469@usermail.com"><script>document.write(users[3].email)</script></a></td>
+					</tr>
+					<tr>
+						<td><script>document.write(users[4].first_name)</script></td>
+						<td><script>document.write(users[4].last_name)</script></td>
+						<td><script>document.write(users[4].age)</script></td>
+						<td><a href="mailto:kburns99753@usermail.com"><script>document.write(users[4].email)</script></a></td>
+					</tr>
+				</thead>
+			</table>
+			<br />
+		</div>
+	<!-- End your code here  --> 
+	
+	</section>
+	<footer>
+	  <div class="center">
+		  &copy; 2018 Ivy Leano-Hill
+	  </div>
+	</footer>
+</body>
+</html>	  

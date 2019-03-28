@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>INT222</title>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/lab3-theme.css"/>
+	<script src="js/video.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="center">
+			<h2>
+			     WEB222 - Assignment 3
+			</h2>
+		</div>
+	</header>
+	<nav>
+		<div class="center">
+		<ul>	
+			<li><a href="index.html">Home</a></li>
+			<li><a href="list.html">List</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li><a href="image.html">Image</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="seneca.html">Seneca</a></li>
+			<li><a href="honesty.html">Honesty</a></li>
+		</ul>
+		</div>
+	</nav>
+		
+	<section class="main center">
+	
+	<!-- Start your code here -->
+		<h2>HTML5 Video</h2>
+		<div id="video">
+			<figure>
+				<video id="v1" width="0" height="0" controls="" >
+					<source src="#v1.movie.mp4" type="#v1.video/mp4" />
+					<source src="#v1.movie.oog" type="#v1.video/oog" />
+				<script>
+					document.getElementById("v1").controls = video.controls;
+					document.getElementById("v1").width = video.width;
+					document.getElementById("v1").height = video.height;
+					document.getElementById("v1").src = video.source[0].src;
+					document.getElementById("v1").type = video.source[0].type;
+					document.getElementById("v1").src = video.source[1].src;
+					document.getElementById("v1").type = video.source[1].type;
+				</script>
+				</video>
+			</figure>
+		</div>
+	<!-- End your code here  -->
+	
+	</section>
+	<footer>
+	  <div class="center">
+		  &copy; 2018 Ivy Leano-Hill
+	  </div>
+	</footer>
+</body>
+</html>	  
